@@ -138,7 +138,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             CancelButton = btnExit;
-            ClientSize = new Size(300, 210);
+            ClientSize = new Size(291, 193);
             Controls.Add(txtTotal);
             Controls.Add(txtDiscountAmount);
             Controls.Add(txtDiscountPercent);
