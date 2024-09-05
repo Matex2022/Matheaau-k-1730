@@ -16,5 +16,20 @@ namespace Exb1
         {
             InitializeComponent();
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnCalculate_Click(object sender, EventArgs e)
+        {
+            this.txtTotal.Text = this.txtSubtotal.Text;
+        }
+
+        private void txtSubtotal_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

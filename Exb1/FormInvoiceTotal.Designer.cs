@@ -88,6 +88,7 @@
             btnCalculate.TabIndex = 2;
             btnCalculate.Text = "&Calculate";
             btnCalculate.UseVisualStyleBackColor = true;
+            btnCalculate.Click += btnCalculate_Click;
             // 
             // btnExit
             // 
@@ -97,6 +98,7 @@
             btnExit.TabIndex = 3;
             btnExit.Text = "E&xit";
             btnExit.UseVisualStyleBackColor = true;
+            btnExit.Click += btnExit_Click;
             // 
             // txtSubtotal
             // 
@@ -104,6 +106,7 @@
             txtSubtotal.Name = "txtSubtotal";
             txtSubtotal.Size = new Size(100, 23);
             txtSubtotal.TabIndex = 1;
+            txtSubtotal.TextChanged += txtSubtotal_TextChanged;
             // 
             // txtDiscountPercent
             // 
